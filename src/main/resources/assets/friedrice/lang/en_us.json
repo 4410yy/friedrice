@@ -26,5 +26,10 @@
   "item.friedrice.yellow_fragment": "Yellow Fragment",
   "item.friedrice.yellow_core": "Yellow Core",
   "item.friedrice.cosmic_fragment": "Cosmic Fragment",
-  "item.friedrice.cosmic_core": "Cosmic Core"
+  "item.friedrice.cosmic_core": "Cosmic Core",
+  "item.friedrice.compressed_netherrack": "compressed netherrack",
+  "item.friedrice.re_compressed_netherrack": "recompressed nether rack",
+  "item.friedrice.rere_compressed_netherrack": "rere compressed nether rack",
+  "item.friedrice.rerere_compressed_netherrack": "rerere compressed nether rack",
+  "item.friedrice.nether_core": "nether core"
 }

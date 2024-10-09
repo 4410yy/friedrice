@@ -26,5 +26,10 @@
   "item.friedrice.yellow_fragment": "黄の欠片",
   "item.friedrice.yellow_core": "黄のコア",
   "item.friedrice.cosmic_fragment": "宇宙の欠片",
-  "item.friedrice.cosmic_core": "宇宙のコア"
+  "item.friedrice.cosmic_core": "宇宙のコア",
+  "item.friedrice.compressed_netherrack": "圧縮されたネザーラック",
+  "item.friedrice.re_compressed_netherrack": "再圧縮されたネザーラック",
+  "item.friedrice.rere_compressed_netherrack": "濃縮されたネザーラック",
+  "item.friedrice.rerere_compressed_netherrack": "さらに濃縮されたネザーラック",
+  "item.friedrice.nether_core": "ネザーコア"
 }
