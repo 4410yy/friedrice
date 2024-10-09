@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "friedrice:cosmic_core"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    },
+    {
+      "item": "ars_nouveau:source_jar"
+    }
+  ],
+  "result": {
+    "id": "ars_nouveau:creative_source_jar",
+    "count": 1
+  }
+}

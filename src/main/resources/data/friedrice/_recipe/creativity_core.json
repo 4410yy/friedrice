@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "friedrice:creativity_fragment"
+    },
+    {
+      "item": "friedrice:creativity_fragment"
+    },
+    {
+      "item": "friedrice:creativity_fragment"
+    },
+    {
+      "item": "friedrice:creativity_fragment"
+    },
+    {
+      "item": "friedrice:creativity_fragment"
+    },
+    {
+      "item": "friedrice:creativity_fragment"
+    },
+    {
+      "item": "friedrice:creativity_fragment"
+    },
+    {
+      "item": "friedrice:creativity_fragment"
+    },
+    {
+      "item": "friedrice:creativity_fragment"
+    }
+  ],
+  "result": {
+    "id": "friedrice:creativity_core",
+    "count": 1
+  }
+}

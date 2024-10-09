@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "friedrice:compressed_debris"
+  },
+  "result": {
+    "id": "friedrice:compressed_ore"
+  },
+  "experience": 0.25,
+  "cookingtime": 100
+}

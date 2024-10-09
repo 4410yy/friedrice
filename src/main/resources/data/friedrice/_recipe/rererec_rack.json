@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "rere_compressed_netherrack"
+    }
+  },
+  "result": {
+    "id": "friedrice:rerere_compressed_netherrack",
+    "count": 1
+  }
+}

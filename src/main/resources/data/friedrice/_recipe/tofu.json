@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tofucraft:blocktofudiamond"
+    },
+    {
+      "item": "tofucraft:blocktofudiamond"
+    },
+    {
+      "item": "tofucraft:blocktofudiamond"
+    },
+    {
+      "item": "tofucraft:blocktofudiamond"
+    },
+    {
+      "item": "tofucraft:blocktofudiamond"
+    },
+    {
+      "item": "tofucraft:blocktofudiamond"
+    },
+    {
+      "item": "tofucraft:blocktofudiamond"
+    },
+    {
+      "item": "tofucraft:blocktofudiamond"
+    },
+    {
+      "item": "tofucraft:blocktofudiamond"
+    }
+  ],
+  "result": {
+    "id": "friedrice:adamant_tofu_chunk",
+    "count": 1
+  }
+}

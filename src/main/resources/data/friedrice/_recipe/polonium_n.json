@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "mekanism:pellet_polonium"
+      },
+      {
+        "item": "mekanism:pellet_polonium"
+      },
+      {
+        "item": "mekanism:pellet_polonium"
+      },
+      {
+        "item": "mekanism:pellet_polonium"
+      },
+      {
+        "item": "mekanism:pellet_polonium"
+      },
+      {
+        "item": "mekanism:pellet_polonium"
+      },
+      {
+        "item": "mekanism:pellet_polonium"
+      },
+      {
+        "item": "mekanism:pellet_polonium"
+      },
+      {
+        "item": "mekanism:pellet_polonium"
+      }
+    ],
+    "result": {
+      "id": "friedrice:radioactive_energy_crystal",
+      "count": 1
+    }
+  }
+  

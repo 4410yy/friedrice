@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "quarryplus:marker"
+    },
+    "c": {
+      "item": "quarryplus:quarry"
+    },
+    "d": {
+      "item": "friedrice:cosmic_core"
+    }
+  },
+  "result": {
+    "id": "quarryplus:creative_generator",
+    "count": 1
+  }
+}

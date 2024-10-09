@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "friedrice:quantum_tangled_core"
+    },
+    {
+      "item": "friedrice:radioactive_energy_core"
+    },
+    {
+      "item": "friedrice:magnificent_crystal_core"
+    },
+    {
+      "item": "friedrice:adamant_tofu_core"
+    },
+    {
+      "item": "friedrice:creativity_core"
+    },
+    {
+      "item": "friedrice:blue_core"
+    },
+    {
+      "item": "friedrice:rune_core"
+    },
+    {
+      "item": "friedrice:yellow_core"
+    },
+    {
+      "item": "friedrice:nether_core"
+    }
+  ],
+  "result": {
+    "id": "friedrice:cosmic_fragment",
+    "count": 1
+  }
+}

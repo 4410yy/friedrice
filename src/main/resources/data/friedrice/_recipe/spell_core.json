@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:fire_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:ice_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:lightning_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:holy_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:ender_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:blood_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:evocation_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:nature_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:legendary_ink"
+    }
+  ],
+  "result": {
+    "id": "friedrice:spell_enhancement_core",
+    "count": 1
+  }
+}

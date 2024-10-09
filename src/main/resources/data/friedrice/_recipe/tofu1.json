@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "friedrice:adamant_tofu_chunk"
+    },
+    {
+      "item": "friedrice:adamant_tofu_chunk"
+    },
+    {
+      "item": "friedrice:adamant_tofu_chunk"
+    },
+    {
+      "item": "friedrice:adamant_tofu_chunk"
+    },
+    {
+      "item": "friedrice:adamant_tofu_chunk"
+    },
+    {
+      "item": "friedrice:adamant_tofu_chunk"
+    },
+    {
+      "item": "friedrice:adamant_tofu_chunk"
+    },
+    {
+      "item": "friedrice:adamant_tofu_chunk"
+    },
+    {
+      "item": "friedrice:adamant_tofu_chunk"
+    }
+  ],
+  "result": {
+    "id": "friedrice:adamant_tofu_core",
+    "count": 1
+  }
+}

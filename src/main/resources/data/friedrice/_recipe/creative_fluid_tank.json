@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aca",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "c": {
+      "item": "mekanism:ultimate_energy_cube"
+    },
+    "d": {
+      "item": "friedrice:cosmic_core"
+    }
+  },
+  "result": {
+    "id": "mekanism:creative_fluid_tank",
+    "count": 1
+  }
+}

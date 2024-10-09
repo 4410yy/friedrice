@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bigreactors:insanite_ingot"
+    },
+    {
+      "item": "bigreactors:inanite_ingot"
+    },
+    {
+      "item": "bigreactors:ridiculite_ingot"
+    },
+    {
+      "item": "bigreactors:cyanite_ingot"
+    },
+    {
+      "item": "bigreactors:magentite_ingot"
+    },
+    {
+      "item": "bigreactors:graphite_ingot"
+    },
+    {
+      "item": "bigreactors:ludicrite_ingot"
+    },
+    {
+      "item": "bigreactors:blutonium_ingot"
+    },
+    {
+      "item": "bigreactors:yellorium_ingot"
+    }
+  ],
+  "result": {
+    "id": "friedrice:yellow_fragment",
+    "count": 1
+  }
+}

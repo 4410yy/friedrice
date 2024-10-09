@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "friedrice:yellow_fragment"
+    },
+    {
+      "item": "friedrice:yellow_fragment"
+    },
+    {
+      "item": "friedrice:yellow_fragment"
+    },
+    {
+      "item": "friedrice:yellow_fragment"
+    },
+    {
+      "item": "friedrice:yellow_fragment"
+    },
+    {
+      "item": "friedrice:yellow_fragment"
+    },
+    {
+      "item": "friedrice:yellow_fragment"
+    },
+    {
+      "item": "friedrice:yellow_fragment"
+    },
+    {
+      "item": "friedrice:yellow_fragment"
+    }
+  ],
+  "result": {
+    "id": "friedrice:yellow_core",
+    "count": 1
+  }
+}

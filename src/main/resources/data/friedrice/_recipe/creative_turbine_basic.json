@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "mekanismgenerators:turbine_blade"
+    },
+    "c": {
+      "item": "mekanismgenerators:turbine_rotor"
+    },
+    "d": {
+      "item": "friedrice:cosmic_core"
+    }
+  },
+  "result": {
+    "id": "bigreactors:basic_turbinecreativesteamgenerator",
+    "count": 1
+  }
+}

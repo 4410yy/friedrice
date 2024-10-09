@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ars_elemental:fire_focus"
+    },
+    {
+      "item": "ars_elemental:water_focus"
+    },
+    {
+      "item": "ars_elemental:air_focus"
+    },
+    {
+      "item": "ars_elemental:earth_focus"
+    },
+    {
+      "item": "ars_elemental:necrotic_focus"
+    },
+    {
+      "item": "ars_elemental:lesser_earth_focus"
+    },
+    {
+      "item": "ars_elemental:lesser_air_focus"
+    },
+    {
+      "item": "ars_elemental:lesser_water_focus"
+    },
+    {
+      "item": "ars_elemental:lesser_fire_focus"
+    }
+  ],
+  "result": {
+    "id": "friedrice:focus_core",
+    "count": 1
+  }
+}

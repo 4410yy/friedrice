@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bluepower:amethyst_gem"
+    },
+    {
+      "item": "bluepower:sapphire_gem"
+    },
+    {
+      "item": "bluepower:green_sapphire_gem"
+    },
+    {
+      "item": "bluepower:ruby_gem"
+    }
+  ],
+  "result": {
+    "id": "friedrice:gem_core",
+    "count": 1
+  }
+}

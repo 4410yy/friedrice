@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ana",
+    "bbb",
+    "ana"
+  ],
+  "key": {
+    "a": {
+      "item": "friedrice:rerere_compressed_netherrack"
+    },
+    "b": {
+      "item": "minecraft:nether_star"
+    },
+    "n": {
+      "item": "mekanism:pellet_antimatter"
+    }
+  },
+  "result": {
+    "id": "friedrice:nether_core",
+    "count": 1
+  }
+}
+

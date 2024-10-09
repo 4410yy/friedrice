@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "friedrice:compressed_blue"
+    },
+    {
+      "item": "friedrice:compressed_blue"
+    },
+    {
+      "item": "friedrice:compressed_blue"
+    },
+    {
+      "item": "friedrice:compressed_blue"
+    },
+    {
+      "item": "friedrice:compressed_blue"
+    },
+    {
+      "item": "friedrice:compressed_blue"
+    },
+    {
+      "item": "friedrice:compressed_blue"
+    },
+    {
+      "item": "friedrice:compressed_blue"
+    },
+    {
+      "item": "friedrice:compressed_blue"
+    }
+  ],
+  "result": {
+    "id": "friedrice:blue_fragment",
+    "count": 1
+  }
+}

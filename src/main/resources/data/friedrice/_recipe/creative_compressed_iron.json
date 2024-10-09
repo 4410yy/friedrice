@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "ada",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "d": {
+      "item": "friedrice:cosmic_core"
+    }
+  },
+  "result": {
+    "id": "pneumaticcraft:creative_compressed_iron_block",
+    "count": 1
+  }
+}

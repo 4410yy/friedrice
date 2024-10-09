@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aca",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "ae2:dense_energy_cell"
+    },
+    "c": {
+      "item": "ae2:dense_energy_cell"
+    },
+    "d": {
+      "item": "friedrice:cosmic_core"
+    }
+  },
+  "result": {
+    "id": "ae2:creative_energy_cell",
+    "count": 1
+  }
+}

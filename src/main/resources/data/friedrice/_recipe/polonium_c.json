@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "friedrice:radioactive_energy_crystal"
+      },
+      {
+        "item": "friedrice:radioactive_energy_crystal"
+      },
+      {
+        "item": "friedrice:radioactive_energy_crystal"
+      },
+      {
+        "item": "friedrice:radioactive_energy_crystal"
+      },
+      {
+        "item": "friedrice:radioactive_energy_crystal"
+      },
+      {
+        "item": "friedrice:radioactive_energy_crystal"
+      },
+      {
+        "item": "friedrice:radioactive_energy_crystal"
+      },
+      {
+        "item": "friedrice:radioactive_energy_crystal"
+      },
+      {
+        "item": "friedrice:radioactive_energy_crystal"
+      }
+    ],
+    "result": {
+      "id": "friedrice:radioactive_energy_core",
+      "count": 1
+    }
+  }
+  

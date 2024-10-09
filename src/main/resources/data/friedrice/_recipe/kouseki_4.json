@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "friedrice:compressed_crystal"
+    },
+    {
+      "item": "friedrice:compressed_crystal"
+    },
+    {
+      "item": "friedrice:compressed_crystal"
+    },
+    {
+      "item": "friedrice:compressed_crystal"
+    },
+    {
+      "item": "friedrice:compressed_crystal"
+    },
+    {
+      "item": "friedrice:compressed_crystal"
+    },
+    {
+      "item": "friedrice:compressed_crystal"
+    },
+    {
+      "item": "friedrice:compressed_crystal"
+    },
+    {
+      "item": "friedrice:compressed_crystal"
+    }
+  ],
+  "result": {
+    "id": "friedrice:magnificent_crystal",
+    "count": 1
+  }
+}

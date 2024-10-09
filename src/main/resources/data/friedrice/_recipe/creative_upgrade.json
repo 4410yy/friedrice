@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aca",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "pneumaticcraft:upgrade_matrix"
+    },
+    "c": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "d": {
+      "item": "friedrice:cosmic_core"
+    }
+  },
+  "result": {
+    "id": "pneumaticcraft:creative_upgrade",
+    "count": 1
+  }
+}

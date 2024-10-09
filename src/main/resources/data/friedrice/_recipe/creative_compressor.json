@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aca",
+    "ada",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "b": {
+      "item": "pneumaticcraft:advanced_air_compressor"
+    },
+    "c": {
+      "item": "pneumaticcraft:advanced_liquid_compressor"
+    },
+    "d": {
+      "item": "friedrice:cosmic_core"
+    }
+  },
+  "result": {
+    "id": "pneumaticcraft:creative_compressor",
+    "count": 1
+  }
+}

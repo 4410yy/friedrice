@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "friedrice:compressed_ore"
+    },
+    {
+      "item": "friedrice:compressed_ore"
+    },
+    {
+      "item": "friedrice:compressed_ore"
+    },
+    {
+      "item": "friedrice:compressed_ore"
+    },
+    {
+      "item": "friedrice:compressed_ore"
+    },
+    {
+      "item": "friedrice:compressed_ore"
+    },
+    {
+      "item": "friedrice:compressed_ore"
+    },
+    {
+      "item": "friedrice:compressed_ore"
+    },
+    {
+      "item": "friedrice:compressed_ore"
+    }
+  ],
+  "result": {
+    "id": "friedrice:compressed_crystal",
+    "count": 1
+  }
+}

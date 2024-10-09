@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bab",
+    "ada",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "b": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "d": {
+      "item": "friedrice:cosmic_core"
+    }
+  },
+  "result": {
+    "id": "mekanism:creative_chemical_tank",
+    "count": 1
+  }
+}
+

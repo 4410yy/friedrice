@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:mana_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:cooldown_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:protection_upgrade_orb"
+    },
+    {
+      "item": "irons_spellbooks:legendary_ink"
+    }
+  ],
+  "result": {
+    "id": "friedrice:equipment_enhancement_core",
+    "count": 1
+  }
+}

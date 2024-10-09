@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "friedrice:magnificent_crystal"
+    },
+    {
+      "item": "friedrice:magnificent_crystal"
+    },
+    {
+      "item": "friedrice:magnificent_crystal"
+    },
+    {
+      "item": "friedrice:magnificent_crystal"
+    },
+    {
+      "item": "friedrice:magnificent_crystal"
+    },
+    {
+      "item": "friedrice:magnificent_crystal"
+    },
+    {
+      "item": "friedrice:magnificent_crystal"
+    },
+    {
+      "item": "friedrice:magnificent_crystal"
+    },
+    {
+      "item": "friedrice:magnificent_crystal"
+    }
+  ],
+  "result": {
+    "id": "friedrice:magnificent_crystal_core",
+    "count": 1
+  }
+}

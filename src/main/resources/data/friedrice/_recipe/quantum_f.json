@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ae2:quantum_entangled_singularity"
+    },
+    {
+      "item": "ae2:quantum_entangled_singularity"
+    },
+    {
+      "item": "ae2:quantum_entangled_singularity"
+    },
+    {
+      "item": "ae2:quantum_entangled_singularity"
+    },
+    {
+      "item": "ae2:quantum_entangled_singularity"
+    },
+    {
+      "item": "ae2:quantum_entangled_singularity"
+    },
+    {
+      "item": "ae2:quantum_entangled_singularity"
+    },
+    {
+      "item": "ae2:quantum_entangled_singularity"
+    },
+    {
+      "item": "ae2:quantum_entangled_singularity"
+    }
+  ],
+  "result": {
+    "id": "friedrice:quantum_tangled_singularity_fragment",
+    "count": 1
+  }
+}

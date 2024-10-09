@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bluepower:silver_ingot"
+    },
+    {
+      "item": "bluepower:zinc_ingot"
+    },
+    {
+      "item": "bluepower:tungsten_ingot"
+    },
+    {
+      "item": "bluepower:tungsten_carbide"
+    },
+    {
+      "item": "bluepower:brass_ingot"
+    },
+    {
+      "item": "bluepower:blue_alloy_ingot"
+    },
+    {
+      "item": "bluepower:red_alloy_ingot"
+    },
+    {
+      "item": "bluepower:purple_alloy_ingot"
+    },
+    {
+      "item": "friedrice:gem_core"
+    }
+  ],
+  "result": {
+    "id": "friedrice:compressed_blue",
+    "count": 1
+  }
+}

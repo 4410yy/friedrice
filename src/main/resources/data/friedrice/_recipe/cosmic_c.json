@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "friedrice:cosmic_fragment"
+    },
+    {
+      "item": "friedrice:cosmic_fragment"
+    },
+    {
+      "item": "friedrice:cosmic_fragment"
+    },
+    {
+      "item": "friedrice:cosmic_fragment"
+    },
+    {
+      "item": "friedrice:cosmic_fragment"
+    },
+    {
+      "item": "friedrice:cosmic_fragment"
+    },
+    {
+      "item": "friedrice:cosmic_fragment"
+    },
+    {
+      "item": "friedrice:cosmic_fragment"
+    },
+    {
+      "item": "friedrice:cosmic_fragment"
+    }
+  ],
+  "result": {
+    "id": "friedrice:cosmic_core",
+    "count": 1
+  }
+}
