@@ -1,0 +1,59 @@
+{
+  "parent": "friedrice:cosmic_core",
+  "criteria": {
+    "turbine_reinforced": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bigreactors:reinforced_turbinecreativesteamgenerator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "turbine_basic": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bigreactors:basic_turbinecreativesteamgenerator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "water": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bigreactors:reinforced_reactorcreativewatergenerator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "friedrice.advancement.desc.erea"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "bigreactors:basic_reactorfuelrod"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "friedrice.advancement.title.erea"
+    }
+  },
+  "requirements": [
+    [
+      "turbine_reinforced",
+      "turbine_basic",
+      "water"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

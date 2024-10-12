@@ -1,0 +1,37 @@
+{
+  "parent": "friedrice:cosmic_core",
+  "criteria": {
+    "ids": {
+      "conditions": {
+        "items": [
+          {
+            "items": "integrateddynamics:energy_battery_creative"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "friedrice.advancement.desc.ids"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "integrateddynamics:cable"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "friedrice.advancement.title.ids"
+    }
+  },
+  "requirements": [
+    [
+      "ids"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

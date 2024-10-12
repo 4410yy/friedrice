@@ -1,0 +1,59 @@
+{
+  "parent": "friedrice:cosmic_core",
+  "criteria": {
+    "chemical": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:creative_chemical_tank"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "fluid": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:creative_fluid_tank"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "energy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:creative_energy_cube"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "friedrice.advancement.desc.mek"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "mekanism:metallurgic_infuser"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "friedrice.advancement.title.mek"
+    }
+  },
+  "requirements": [
+    [
+      "chemical",
+      "fluid",
+      "energy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

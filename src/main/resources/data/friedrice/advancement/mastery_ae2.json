@@ -1,0 +1,48 @@
+{
+  "parent": "friedrice:cosmic_core",
+  "criteria": {
+    "storage": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:creative_storage_cell"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:creative_energy_cell"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "friedrice.advancement.desc.ae2"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "ae2:charged_certus_quartz_crystal"
+    },
+    "show_toast": true,
+    "hidden": true,
+    "title": {
+      "translate": "friedrice.advancement.title.ae2"
+    }
+  },
+  "requirements": [
+    [
+      "storage",
+      "craft"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "friedrice:cosmic_fragment",
+  "criteria": {
+    "cosmic_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "friedrice:cosmic_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "friedrice.advancement.desc.core"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "friedrice:cosmic_core"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "friedrice.advancement.title.core"
+    }
+  },
+  "requirements": [
+    [
+      "cosmic_core"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

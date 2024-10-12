@@ -1,0 +1,37 @@
+{
+  "parent": "friedrice:cosmic_core",
+  "criteria": {
+    "miner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "quarryplus:creative_generator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "friedrice.advancement.desc.miner"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "quarryplus:quarry"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "friedrice.advancement.title.miner"
+    }
+  },
+  "requirements": [
+    [
+      "miner"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

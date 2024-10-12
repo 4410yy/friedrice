@@ -1,0 +1,47 @@
+{
+  "parent": "friedrice:cosmic_core",
+  "criteria": {
+    "ars": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ars_nouveau:creative_spell_book"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "jar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ars_nouveau:creative_source_jar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "friedrice.advancement.desc.ars"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "ars_nouveau:creative_spell_book"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "friedrice.advancement.title.ars"
+    }
+  },
+  "requirements": [
+    [
+      "ars","jar"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "cosmic_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": "friedrice:cosmic_fragment"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "friedrice:textures/gui/advancements/backgrounds/background.png",
+    "description": {
+      "translate": "friedrice.advancement.desc.root"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "friedrice:cosmic_fragment"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "friedrice.advancement.title.root"
+    }
+  },
+  "requirements": [
+    [
+      "cosmic_fragment"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,59 @@
+{
+  "parent": "friedrice:cosmic_core",
+  "criteria": {
+    "ironblock": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pneumaticcraft:creative_compressed_iron_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "upgrade": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pneumaticcraft:creative_upgrade"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "comp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pneumaticcraft:creative_compressor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "friedrice.advancement.desc.pneu"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "pneumaticcraft:pressure_gauge"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "friedrice.advancement.title.pneu"
+    }
+  },
+  "requirements": [
+    [
+      "ironblock",
+      "upgrade",
+      "comp"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
