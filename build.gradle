@@ -20,6 +20,7 @@ repositories {
     mavenLocal()
     mavenCentral()
     maven { url 'https://modmaven.dev/' }
+
 }
 
 base {
@@ -49,12 +50,15 @@ neoForge {
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+
+
         }
 
         server {
             server()
             programArgument '--nogui'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+
         }
 
         // This run config launches GameTestServer and runs all registered gametests, then exits.
@@ -73,6 +77,8 @@ neoForge {
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
             programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+
+
         }
 
         // applies to all the run configs above
@@ -135,8 +141,11 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-    compileOnly "mekanism:Mekanism:${mekanism_version}:all"
+//    compileOnly "mekanism:Mekanism:${mekanism_version}:all"
+
 }
+
+
 
 // This block of code expands all declared replace properties in the specified resource targets.
 // A missing property will result in an error. Properties are expanded using ${} Groovy notation.
@@ -190,3 +199,15 @@ idea {
         downloadJavadoc = true
     }
 }
+
+repositories {
+    maven {
+        name = "OctoStudios"
+        url = uri("https://maven.octo-studios.com/releases")
+    }
+}
+
+dependencies {
+    implementation 'top.theillusivec4.curios:curios-neoforge:9.0.4+1.21'
+}
+

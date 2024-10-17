@@ -32,6 +32,7 @@
   "item.friedrice.rere_compressed_netherrack": "濃縮されたネザーラック",
   "item.friedrice.rerere_compressed_netherrack": "さらに濃縮されたネザーラック",
   "item.friedrice.nether_core": "ネザーコア",
+  "item.friedrice.badge_admin": "テスト用バッジ",
   "friedrice.advancement.title.root": "ちゃーはん！",
   "friedrice.advancement.desc.root": "ちゃーはんサーバーのエンドコンテンツの最初に触れる",
   "friedrice.advancement.title.core": "銀河をこの手に",
@@ -49,5 +50,6 @@
   "friedrice.advancement.title.pneu": "空気を掌握せし者",
   "friedrice.advancement.desc.pneu": "PneumaticCraft: Repressurized関連のクリエイティブアイテムを作る",
   "friedrice.advancement.title.ids": "情報の旅人",
-  "friedrice.advancement.desc.ids": "Integrated Dynamics関連のクリエイティブアイテムを作る"
+  "friedrice.advancement.desc.ids": "Integrated Dynamics関連のクリエイティブアイテムを作る",
+  "curios.identifier.badge": "バッジ"
 }

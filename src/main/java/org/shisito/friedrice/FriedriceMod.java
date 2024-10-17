@@ -1,8 +1,11 @@
 package org.shisito.friedrice;
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.neoforge.client.event.RenderNameTagEvent;
 import org.shisito.friedrice.item.ModCreativeModeTabs;
 import org.shisito.friedrice.item.ModItems;
+import org.shisito.friedrice.item.badges.Admin;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -19,6 +22,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import top.theillusivec4.curios.api.CuriosApi;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(FriedriceMod.MOD_ID)
@@ -74,5 +78,10 @@ public class FriedriceMod
         {
 
         }
+    }
+
+    @SubscribeEvent
+    public void onRenderNameTag(RenderNameTagEvent event) {
+        event.setContent(Component.literal("hoge_prefix").append(event.getContent()));
     }
 }

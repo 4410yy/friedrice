@@ -1,11 +1,13 @@
 package org.shisito.friedrice.item;
 
 import net.minecraft.client.renderer.item.ItemProperties;
+import net.minecraft.world.damagesource.DamageEffects;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.shisito.friedrice.FriedriceMod;
+import org.shisito.friedrice.item.badges.Admin;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FriedriceMod.MOD_ID);
@@ -101,6 +103,9 @@ public class ModItems {
             "rerere_compressed_netherrack",() -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> NETHER_CORE = ITEMS.register(
             "nether_core",()-> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> BADGE_ADMIN = ITEMS.register(
+            "badge_admin", Admin::new);
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

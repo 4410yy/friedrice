@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.shisito.friedrice.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "friedrice.refmap.json",
+  "mixins": [
+    "MixinPlayer"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
